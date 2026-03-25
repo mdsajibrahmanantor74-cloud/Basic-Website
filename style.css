@@ -6,6 +6,17 @@
         align-items: center;
       }
 
+      h1 {
+        background-color: blueviolet;
+        color: white;
+        padding: 1% 7%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        text-decoration: underline;
+      }
+
       .navbar a {
         text-decoration: none;
         color: white;
@@ -13,11 +24,13 @@
         padding: 10px 20px;
         cursor: pointer;
       }
+
       .dropdown-container {
         position: relative;
-        display: flex; 
+        display: flex;
         align-items: center;
       }
+
       .dropdown-contain {
         position: absolute;
         top: 30px;
@@ -27,16 +40,20 @@
         min-width: 100px;
         display: none;
       }
+
       .dropdown-contain a {
         display: block;
       }
+
       .dropdown-container:hover .dropdown-contain {
         display: block;
         margin-top: 20px;
       }
+
       .dropdown-contain a:hover {
         background-color: gray;
       }
+
       @media screen and (max-width: 720px) {
         .navbar {
           flex-direction: column;
